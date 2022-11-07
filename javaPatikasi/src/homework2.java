@@ -22,6 +22,5 @@ public class homework2 {
             cartTotal += cart[i];
         }
         System.out.println("Cart total:" +cartTotal);
-
     }
 }
