@@ -11,14 +11,17 @@ public class w3p2 {
         do {
             System.out.println("Enter a number: ");
             k = scan.nextInt();
-            if(k%2==1){
+            if(k%2==0 && k%4==0){
                 sum = k + sum;
                 System.out.println("Sum: " + sum);
-            }else if(k%2==0){
-                System.out.println("K is not odd");
-            }else
+            }else if(k%2==1){
                 System.out.println("Exiting program.");
+                return;
+            }
+            else
+                System.out.println(k + " is not dividible by both 2 and 4.");
         }
-        while(k>0);
+        while(k % 2 != 1);
+        System.out.println("Sum: " + sum);
     }
 }
