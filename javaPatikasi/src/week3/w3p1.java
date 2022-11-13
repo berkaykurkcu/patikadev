@@ -11,11 +11,10 @@ public class w3p1 {
 	System.out.println("Sayı giriniz: ");
 	k = inp.nextInt();
 
-	if(k % 2 == 0){
-		System.out.println("K is even");
-	}else{
-		System.out.println("K is odd");
+  for(int i = 0; i <= k; i++ ){
+      if(i%2==0){
+        System.out.println("K: " + i );
+      }
     }
+  }
 }
-}
-
