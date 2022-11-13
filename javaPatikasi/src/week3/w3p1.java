@@ -12,7 +12,7 @@ public class w3p1 {
 	k = inp.nextInt();
 
   for(int i = 0; i <= k; i++ ){
-      if(i%2==0){
+      if(i % 3==0 && i % 4 == 0){
         System.out.println("K: " + i );
       }
     }
