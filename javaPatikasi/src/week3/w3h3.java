@@ -2,7 +2,7 @@ package week3;
 
 import java.util.Scanner;
 
-public class w3h2 {
+public class w3h3 {
     public static void main(String[] args) {
         System.out.println("Reverse triangle, enter row amount");
         Scanner scan = new Scanner(System.in);

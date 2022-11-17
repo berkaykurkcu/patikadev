@@ -2,7 +2,7 @@ package week3;
 
 import java.util.Scanner;
 
-public class w3h1 {
+public class w3h2 {
     public static void main(String[] args) {
         System.out.println("Perfect number");
         Scanner scan = new Scanner(System.in);

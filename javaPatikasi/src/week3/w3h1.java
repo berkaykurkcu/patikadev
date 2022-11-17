@@ -3,7 +3,7 @@ package week3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class w3p11 {
+public class w3h1 {
     public static void main(String[] args) {
         System.out.println("N adet sayma sayısının en küçüğünü en büyüğünü bulma");
         Scanner scan = new Scanner(System.in);
