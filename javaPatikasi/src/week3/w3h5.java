@@ -2,7 +2,7 @@ package week3;
 
 import java.util.Scanner;
 
-public class w3p14 {
+public class w3h5 {
     public static void main(String[] args) {
         System.out.println("Üslü sayı hesaplayan program");
         Scanner scan = new Scanner(System.in);
